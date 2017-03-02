@@ -1,4 +1,4 @@
-# Spring Boot Web MVC QuickStart
+# Spring Boot Web MVC QuickStart 
 
 This example demonstrates how you can use Spring Boot and Spring MVC on Kubernetes or OpenShift to implement a REST service.
 
