@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @rawlingsj
- Sign out
- Unwatch 1
-  Star 0
- Fork 10 rawlingsj/fabric8-jenkinsfile-library
-forked from fabric8io/fabric8-jenkinsfile-library
- Code  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathfabric8-jenkinsfile-library/maven/CanaryReleaseAndStage/Jenkinsfile
-c66a104  16 hours ago
-@rawlingsj rawlingsj fix pipelines so the run when added as jobs or by the branch plugin
-2 contributors @jstrachan @rawlingsj
-SourcegraphRawBlameHistory     
-62 lines (46 sloc)  1.3 KB
 #!/usr/bin/groovy
 @Library('github.com/fabric8io/fabric8-pipeline-library@master')
 
