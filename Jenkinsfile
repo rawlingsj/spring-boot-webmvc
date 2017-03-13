@@ -38,9 +38,9 @@ mavenNode {
     def envStage = utils.environmentNamespace('staging')
 
     echo 'NOTE: running pipelines for the first time will take longer as build and base docker images are pulled onto the node'
-    echo env.getEnvironment().toString()
+    
     container(name: 'maven') {
-      echo env.getEnvironment().toString()
+    
       stage 'Build Release'
       mavenCanaryRelease {
         version = canaryVersion
