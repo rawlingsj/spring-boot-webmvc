@@ -42,6 +42,7 @@ mavenNode {
     container(name: 'maven') {
     
       stage 'Build Release'
+      error 'TEST FAILED BUILD'
       mavenCanaryRelease {
         version = canaryVersion
       }
